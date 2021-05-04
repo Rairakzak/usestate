@@ -1,0 +1,41 @@
+.counter {
+  margin: 4rem auto;
+  padding: 2rem;
+  width: 50%;
+  border: 1px solid black;
+}
+@media (max-width: 790px) {
+  .counter {
+    width: 70%;
+  }
+}
+button {
+  padding: 0.4rem 1rem;
+  margin: 1rem;
+  border: 2px solid red;
+  border-radius: 5px;
+  color: red;
+  background: transparent;
+  font-size: 1rem;
+  transition: all 0.4s ease;
+}
+button:hover {
+  color: #fff;
+  background: red;
+}
+.heartIcon {
+  display: block;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.like {
+  margin: 0 0.5rem;
+  font-size: 1.4rem;
+}
+.like_active {
+  fill: red;
+  margin: 0 0.5rem;
+  font-size: 1.4rem;
+}
